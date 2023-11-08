@@ -40,6 +40,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     background-color: rgba(225,225,225,0.9);
+     overflow-x: hidden;
 }
 
 .all .header {
@@ -93,14 +94,15 @@ body {
 }
 
 .all .main-body .function {
+    position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 700px;
     height: auto;
-    position: absolute;
-    left: 16%;
     margin-top: 12px;
+    top: 0;
+    left: 16%;
 }
 
 .all .main-body .function .left {
@@ -183,9 +185,23 @@ body {
     align-items: center;
 }
 
-.all .main-body .some-choice .up .flex {
+.all .main-body .some-choice .content {
     width: 80px;
-    height: 100px;
+    height: auto;
+    margin-left: 47px;
+    margin-right: 47px;
+    margin-top: 24px;
+    margin-bottom: 20px;
 }
 
+.all .main-body .some-choice .content div {
+    margin-top: 10px;
+}
 
+.all .main-body .some-choice .down {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
