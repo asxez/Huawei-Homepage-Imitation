@@ -216,6 +216,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
+    max-width: 1200px;
 }
 
 .all .main-body .recommendation .text {
@@ -362,4 +363,266 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 40px;
+    max-width: 1200px;
 }
+
+.all .main-body .phone-area .text {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.all .main-body .phone-area .content {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .phone-area .content .up {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.all .main-body .phone-area .content .up .son-content {
+    width: 270px;
+    height: 420px;
+    background-color: #fff;
+    margin-right: 14px;
+}
+
+.all .main-body .phone-area .content .up .son-content img {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .phone-area .content .up .son-content .text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.all .main-body .phone-area .content .up .son-content .text .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.all .main-body .phone-area .content .up .son-content .text .content2 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.all .main-body .phone-area .content .up .son-content .text .prince {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.all .main-body .phone-area .content .down {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.all .main-body .phone-area .content .down .son-content {
+    width: 270px;
+    height: 420px;
+    background-color: #fff;
+    margin-right: 14px;
+}
+
+.all .main-body .phone-area .content .down .son-content img {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .phone-area .content .down .son-content .text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.all .main-body .phone-area .content .down .son-content .text .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.all .main-body .phone-area .content .down .son-content .text .content2 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.all .main-body .phone-area .content .down .son-content .text .prince {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.all .main-body .computer-area {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    max-width: 1200px;
+}
+
+.all .main-body .computer-area .text {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.all .main-body .computer-area .content {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .computer-area .content .up {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.all .main-body .computer-area .content .up .son-content {
+    width: 270px;
+    height: 420px;
+    background-color: #fff;
+    margin-right: 14px;
+}
+
+.all .main-body .computer-area .content .up .son-content img {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .computer-area .content .up .son-content .text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.all .main-body .computer-area .content .up .son-content .text .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.all .main-body .computer-area .content .up .son-content .text .content2 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.all .main-body .computer-area .content .up .son-content .text .prince {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.all .main-body .computer-area .content .down {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.all .main-body .computer-area .content .down .son-content {
+    width: 270px;
+    height: 420px;
+    background-color: #fff;
+    margin-right: 14px;
+}
+
+.all .main-body .computer-area .content .down .son-content img {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .computer-area .content .down .son-content .text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.all .main-body .computer-area .content .down .son-content .text .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.all .main-body .computer-area .content .down .son-content .text .content2 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.all .main-body .computer-area .content .down .son-content .text .prince {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.all .main-body .tablet-area {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    max-width: 1200px;
+}
+
