@@ -1,10 +1,7 @@
-
-
-
 <div align="center">
     <h1>华为商城-仿</h1>
 
-[![LICENSE](https://img.shields.io/badge/LICENSE-GPL3.0-blue)]()
+[![LICENSE](https://img.shields.io/badge/LICENSE-请自行查看-blue)]()
 </div>
 
 ## ✨这是什么？
@@ -13,4 +10,7 @@
 
 
 ## 🎈许可证
-GPL3.0
+自行查看
+
+## 说明
+本品仅用于交流与学习，勿作其他任何形式用途

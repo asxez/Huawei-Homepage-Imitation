@@ -50,6 +50,9 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
+    position: sticky;
+    z-index: 999;
+    top: 0;
 }
 
 .all .header .content {
@@ -86,12 +89,14 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    top: 0;
+    position: relative;
 }
 
 .all .main-body .body-img {
     position: relative;
-    height: 550px;
-    width: 1528px;
+    height: 580px;
+    width: 1700px;
 }
 
 .all .main-body .function {
@@ -101,15 +106,16 @@ body {
     align-items: center;
     width: 700px;
     height: auto;
-    margin-top: 12px;
+    margin-top: 28px;
     top: 0;
-    left: 13%;
+    left: 14%;
 }
 
 .all .main-body .function .left {
     width: 200px;
     height: auto;
     background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 
 .all .main-body .function .left .function-margin-first {
@@ -118,13 +124,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 12px;
-    margin-bottom: 20px;
-    color: #7c7a7a;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    color: #31313d;
 }
 
 .all .main-body .function .left .function-margin-first .text {
     margin-left: 20px;
+    color: #7c7a7a
 }
 
 .all .main-body .function .left .function-margin-first .img {
@@ -137,13 +144,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5px;
-    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 15px;
     color: #7c7a7a;
 }
 
 .all .main-body .function .left .function-margin .text {
     margin-left: 20px;
+    color: #7c7a7a
 }
 
 .all .main-body .function .left .function-margin .img {
@@ -151,7 +159,9 @@ body {
 }
 
 .all .main-body .function .left .show:hover {
-    color: #000;
+    .text {
+        color: #000;
+    }
     background-color: #fff;
 }
 
@@ -190,8 +200,8 @@ body {
 .all .main-body .some-choice .content {
     width: 80px;
     height: auto;
-    margin-left: 47px;
-    margin-right: 47px;
+    margin-left: 49px;
+    margin-right: 49px;
     margin-top: 24px;
     margin-bottom: 20px;
 }
@@ -876,3 +886,252 @@ body {
     text-align: center;
 }
 
+.all .main-body .popular-area {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    max-width: 1200px;
+}
+
+.all .main-body .popular-area .text {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.all .main-body .popular-area .content {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.all .main-body .popular-area .content .son-content {
+    width: 270px;
+    height: 420px;
+    background-color: #fff;
+    margin-right: 14px;
+}
+
+.all .main-body .popular-area .content .son-content img {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .popular-area .content .son-content .text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.all .main-body .popular-area .content .son-content .text .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.all .main-body .popular-area .content .son-content .text .content2 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.all .main-body .popular-area .content .son-content .text .prince {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.all .main-body .car {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    max-width: 1200px;
+}
+
+.all .main-body .car .text {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.all .main-body .car .content {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .car .content .up {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.all .main-body .car .content .up .son-content {
+    width: 270px;
+    height: 420px;
+    background-color: #fff;
+    margin-right: 14px;
+}
+
+.all .main-body .car .content .up .son-content img {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .car .content .up .son-content .text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.all .main-body .car .content .up .son-content .text .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.all .main-body .car .content .up .son-content .text .content2 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.all .main-body .car .content .up .son-content .text .prince {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.all .main-body .car .content .down {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.all .main-body .car .content .down .son-content {
+    width: 270px;
+    height: 420px;
+    background-color: #fff;
+    margin-right: 14px;
+}
+
+.all .main-body .car .content .down .son-content img {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .car .content .down .son-content .text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.all .main-body .car .content .down .son-content .text .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.all .main-body .car .content .down .son-content .text .content2 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.all .main-body .car .content .down .son-content .text .prince {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.all .footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 120px;
+    flex-direction: column;
+}
+
+.all .footer .bg {
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.all .footer .bg .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.all .footer .bg .content .text {
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.all .footer .information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.all .footer .information .link a {
+    margin-left: 3px;
+    margin-right: 3px;
+    text-decoration: none;
+}
