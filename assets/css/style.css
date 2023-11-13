@@ -99,6 +99,24 @@ body {
     width: 1700px;
 }
 
+.all .main-body .body-img .bg {
+    position: absolute;
+    bottom: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.all .main-body .body-img .bg .radius {
+    border-radius: 360px;
+    width: 8px;
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .all .main-body .function {
     position: absolute;
     display: flex;
@@ -162,6 +180,7 @@ body {
     .text {
         color: #000;
     }
+
     background-color: #fff;
 }
 
@@ -217,6 +236,16 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.all .main-body .some-choice a:hover {
+    :is(img) {
+        transform: scale(1.1);
+    }
+
+    :is(div) div {
+        font-weight: bolder;
+    }
 }
 
 .all .main-body .recommendation {

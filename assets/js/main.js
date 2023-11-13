@@ -4,10 +4,23 @@ function getRandomInt(min, max) {
 
 function getBg() {
     let img = document.getElementById('bg-img');
-    img.src = "./assets/images/background/" + getRandomInt(1,6) + ".webp";
+    let radius = document.getElementsByClassName('radius');
+    let num = getRandomInt(1,6);
+    img.src = "./assets/images/background/" + num + ".webp";
+    radius[num].style.backgroundColor = '#fff';
+}
+
+function getBgMColor() {
+    let radius = document.getElementsByClassName('radius');
+    for (const radius1 of radius) {
+        radius1.style.backgroundColor = 'rgba(0, 0, 0, 0.3)';
+    }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
     getBg();
-    setInterval(getBg, 5500);
+    setInterval(() => {
+        getBgMColor();
+        getBg();
+    }, 5500);
 });
