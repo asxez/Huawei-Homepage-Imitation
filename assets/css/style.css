@@ -80,6 +80,13 @@ body {
 
 .all .header .content .jump .margin-right {
     margin-right: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+.all .header .content .jump .margin-right:hover {
+    color: rgb(207,10,44);
 }
 
 .all .main-body {
@@ -96,7 +103,7 @@ body {
 .all .main-body .body-img {
     position: relative;
     height: 580px;
-    width: 100%;
+    width: 1600px;
 }
 
 .all .main-body .body-img .bg {

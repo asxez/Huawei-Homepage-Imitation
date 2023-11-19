@@ -8,12 +8,14 @@ function getBg() {
     let num = getRandomInt(1, 6);
     img.src = "./assets/images/background/" + num + ".webp";
     radius[num].style.backgroundColor = "#fff";
+    radius[num].style.width = "12px";
 }
 
 function getBgMColor() {
     let radius = document.getElementsByClassName('radius');
     for (const radius1 of radius) {
         radius1.style.backgroundColor = "rgba(0, 0, 0, 0.3)";
+        radius1.style.width = "8px";
     }
 }
 
@@ -34,11 +36,15 @@ function getBgMColor() {
 
 document.addEventListener('DOMContentLoaded', () => {
     getBg();
+    let bg = document.getElementById('bg')
+    bg.style.width = `${document.body.clientWidth}`;
+    bg.style.height = `${document.body.clientHeight - 150}`;
     setInterval(() => {
         getBgMColor();
         getBg();
     }, 5500);
 });
+
 
 let show1 = document.getElementById('show1');
 let show2 = document.getElementById('show2');
