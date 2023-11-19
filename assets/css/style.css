@@ -96,7 +96,7 @@ body {
 .all .main-body .body-img {
     position: relative;
     height: 580px;
-    width: 1700px;
+    width: 100%;
 }
 
 .all .main-body .body-img .bg {
