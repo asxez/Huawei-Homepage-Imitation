@@ -34,6 +34,13 @@ function getBgMColor() {
     console.log('%cASXE的主页\nhttps://www.asxe.vip', 'color:green');
 })();
 
+(function () {
+    let car = document.getElementById('car');
+    car.addEventListener('click', () => {
+        window.open("./car.html")
+    });
+})();
+
 document.addEventListener('DOMContentLoaded', () => {
     getBg();
     let bg = document.getElementById('bg')
@@ -50,12 +57,19 @@ function mouseover(id) {
     let show_content = document.getElementById('show-content');
     show_content.style.visibility = 'visible';
     show_content.innerHTML = document.getElementById(id).innerHTML;
+    document.getElementById('right').addEventListener('mouseover', () => {
+        show_content.style.backgroundColor = "#fff";
+        show_content.style.visibility = 'visible';
+    });
 }
 
 function mouseout() {
     document.getElementById('right').style.visibility = 'hidden';
     let show_content = document.getElementById('show-content');
     show_content.style.visibility = 'hidden';
+    document.getElementById('right').addEventListener('mouseout', () => {
+        show_content.style.visibility = 'hidden';
+    });
 }
 
 for (let i = 1; i <= 12; i++) {

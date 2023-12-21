@@ -1,0 +1,343 @@
+* {
+    user-select: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.all {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(225, 225, 225, 0.35);
+    overflow-x: hidden;
+}
+
+.all .header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+}
+
+.all .header .content {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all .header .content .jump {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.huawei-logo {
+    margin-right: 100px;
+}
+
+.all .header .content .jump .margin-right {
+    margin-right: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+.all .header .content .jump .margin-right:hover {
+    color: rgb(207, 10, 44);
+}
+
+.all .body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all .body .body-image {
+    width: 100%;
+    margin-top: 16px;
+}
+
+.all .body .last-body-image {
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+
+.all .body .accessories-area {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    max-width: 1200px;
+}
+
+.all .body .accessories-area .text {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.all .body .accessories-area .content {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all .body .accessories-area .content .up {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.all .body .accessories-area .content img {
+    width: 100%;
+    height: auto;
+}
+
+.all .body .accessories-area .content .up .son-content {
+    margin-top: 20px;
+    width: 270px;
+    height: 420px;
+    margin-right: 14px;
+}
+
+.all .body .accessories-area .content .up .son-content:hover {
+    background-color: #fff;
+}
+
+.all .body .accessories-area .content .up .son-content img {
+    width: 100%;
+    height: auto;
+}
+
+.all .body .accessories-area .content .up .son-content .text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.all .body .accessories-area .content .up .son-content .text .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.all .body .accessories-area .content .up .son-content .text .content2 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.all .body .accessories-area .content .up .son-content .text .prince {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.all .body .accessories-area .content .down {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.all .body .accessories-area .content .down .son-content {
+    margin-top: 20px;
+    width: 270px;
+    height: 420px;
+    margin-right: 14px;
+}
+
+.all .body .accessories-area .content .down .son-content:hover {
+    background-color: #fff;
+}
+
+.all .body .accessories-area .content .down .son-content img {
+    width: 100%;
+    height: auto;
+}
+
+.all .body .accessories-area .content .down .son-content .text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.all .body .accessories-area .content .down .son-content .text .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.all .body .accessories-area .content .down .son-content .text .content2 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.all .body .accessories-area .content .down .son-content .text .prince {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.all .footer {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+@keyframes shadow-drop-center {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+.shadow:hover {
+    animation: shadow-drop-center 0.15s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.redbg-whiteword {
+    background-color: red;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+.red-border-word {
+    border-style: solid;
+    border-color: rgba(226, 0, 36, 0.4);
+    border-radius: 4px;
+    overflow: hidden;
+    color: rgb(207, 10, 44);
+    word-break: break-all;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 13px;
+    font-weight: 400;
+    border-width: 1px;
+}
+
+.black-border-word {
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    word-break: break-all;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 13px;
+    font-weight: 400;
+    border-width: 1px;
+}
+
+.line-prince {
+    font-weight: 400;
+    text-decoration-line: line-through;
+    line-height: 16px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 3px;
+    opacity: 0.4;
+}
+
+.row-boder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-boder .border {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.row-prince {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
