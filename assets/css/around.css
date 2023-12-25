@@ -1,0 +1,218 @@
+* {
+    user-select: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.all {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(225, 225, 225, 0.35);
+    overflow-x: hidden;
+}
+
+.all .header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+}
+
+.all .header .content {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all .header .content .jump {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.huawei-logo {
+    margin-right: 100px;
+}
+
+.all .header .content .jump .margin-right {
+    margin-right: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+.all .header .content .jump .margin-right:hover {
+    color: rgb(207, 10, 44);
+}
+
+.all .body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.all .body .body-image {
+    width: 100%;
+    margin-top: 2px;
+}
+
+.all .body .content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    max-width: 1200px;
+}
+
+.all .body .content .text {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.all .body .content .line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.all .body .content .son-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 260px;
+    height: 310px;
+    background-color: #fff;
+    flex-direction: column;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.all .body .content .son-content .img {
+    width: 160px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.all .body .content .son-content .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.all .body .content .son-content .content .title {
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2px;
+    font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+}
+
+.all .body .content .son-content .content .content1 {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.45);
+    margin-top: 2px;
+}
+
+.prince {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(207, 10, 44);
+}
+
+@keyframes shadow-drop-center {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+.shadow:hover {
+    animation: shadow-drop-center 0.15s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.line-prince {
+    font-weight: 400;
+    text-decoration-line: line-through;
+    line-height: 16px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 3px;
+    opacity: 0.4;
+}
+
+.row-boder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-boder .border {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.row-prince {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

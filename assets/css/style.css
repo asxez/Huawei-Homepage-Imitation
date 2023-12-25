@@ -1,0 +1,954 @@
+* {
+    user-select: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.all {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(225, 225, 225, 0.35);
+    overflow-x: hidden;
+}
+
+.all .header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+}
+
+.all .header .content {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all .header .content .jump {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.huawei-logo {
+    margin-right: 100px;
+}
+
+.all .header .content .jump .margin-right {
+    margin-right: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+.all .header .content .jump .margin-right:hover {
+    color: rgb(207,10,44);
+}
+
+.all .main-body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    top: 0;
+    position: relative;
+}
+
+.all .main-body .body-img {
+    position: relative;
+    height: 580px;
+    width: 1600px;
+}
+
+.all .main-body .body-img .bg {
+    position: absolute;
+    bottom: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.all .main-body .body-img .bg .radius {
+    border-radius: 360px;
+    width: 8px;
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.all .main-body .function {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    height: auto;
+    margin-top: 28px;
+    top: 0;
+    left: 14%;
+}
+
+.all .main-body .function .left {
+    width: 200px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.all .main-body .function .left .function-margin-first {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    color: #31313d;
+}
+
+.all .main-body .function .left .function-margin-first .text {
+    margin-left: 20px;
+    color: #7c7a7a
+}
+
+.all .main-body .function .left .function-margin-first .img {
+    margin-right: 20px;
+}
+
+.all .main-body .function .left .function-margin {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    color: #7c7a7a;
+}
+
+.all .main-body .function .left .function-margin .text {
+    margin-left: 20px;
+    color: #7c7a7a
+}
+
+.all .main-body .function .left .function-margin .img {
+    margin-right: 20px;
+}
+
+.all .main-body .function .left .show:hover {
+    .text {
+        color: #000;
+    }
+
+    background-color: #fff;
+}
+
+.all .main-body .function .right {
+    width: 500px;
+    height: 490px;
+    visibility: hidden;
+    background-color: #fff;
+    position: relative;
+}
+
+.all .main-body .function .right .show {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.all .main-body .function .right .show .first-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 30px;
+    margin-right: 100px;
+    height: 100%;
+    width: 50%;
+}
+
+.all .main-body .function .right .show .sec-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-right: 30px;
+    height: 100%;
+    width: 50%;
+}
+
+.all .main-body .function .right .show .content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.all .main-body .function .right .show .content .text {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.all .main-body .some-choice {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all .main-body .some-choice .up {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.all .main-body .some-choice .content {
+    width: 80px;
+    height: auto;
+    margin-left: 49px;
+    margin-right: 49px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+.all .main-body .some-choice .content div {
+    margin-top: 10px;
+}
+
+.all .main-body .some-choice .down {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.all .main-body .some-choice a:hover {
+    :is(img) {
+        transform: scale(1.1);
+    }
+
+    :is(div) div {
+        font-weight: bolder;
+    }
+}
+
+.all .main-body .recommendation {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    max-width: 1200px;
+}
+
+.all .main-body .recommendation .text {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.all .main-body .recommendation .content {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.all .main-body .recommendation .content .son-content {
+    width: 270px;
+    height: 350px;
+    background-color: #fff;
+    margin-right: 14px;
+}
+
+.all .main-body .recommendation .content .son-content img {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .recommendation .content .son-content .text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.all .main-body .recommendation .content .son-content .text .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.all .main-body .recommendation .content .son-content .text .content2 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.all .main-body .recommendation .content .son-content .text .prince {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+@keyframes shadow-drop-center {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+.shadow:hover {
+    animation: shadow-drop-center 0.15s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.redbg-whiteword {
+    background-color: red;
+    color: #fff;
+    border-radius: 6px;  /*设置圆角*/
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+.red-border-word {
+    border-style: solid; /*方框样式*/
+    border-color: rgba(226, 0, 36, 0.4);
+    border-radius: 4px;
+    overflow: hidden;
+    color: rgb(207, 10, 44);
+    word-break: break-all;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 13px;
+    font-weight: 400;
+    border-width: 1px; /*边框的大小*/
+}
+
+.black-border-word {
+    border-style: solid; /*方框样式*/
+    border-color: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    word-break: break-all;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 13px;
+    font-weight: 400;
+    border-width: 1px; /*边框的大小*/
+}
+
+.line-prince {
+    font-weight: 400;
+    text-decoration-line: line-through;
+    line-height: 16px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 3px;
+    opacity: 0.4;
+}
+
+.row-boder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-boder .border {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.row-prince {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.all .main-body .phone-area {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    max-width: 1200px;
+}
+
+.all .main-body .phone-area .text {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.all .main-body .phone-area .content {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .phone-area .content .up {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.all .main-body .phone-area .content .up .son-content {
+    width: 270px;
+    height: 420px;
+    background-color: #fff;
+    margin-right: 14px;
+}
+
+.all .main-body .phone-area .content .up .son-content img {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .phone-area .content .up .son-content .text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.all .main-body .phone-area .content .up .son-content .text .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.all .main-body .phone-area .content .up .son-content .text .content2 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.all .main-body .phone-area .content .up .son-content .text .prince {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.all .main-body .phone-area .content .down {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.all .main-body .phone-area .content .down .son-content {
+    width: 270px;
+    height: 420px;
+    background-color: #fff;
+    margin-right: 14px;
+}
+
+.all .main-body .phone-area .content .down .son-content img {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .phone-area .content .down .son-content .text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.all .main-body .phone-area .content .down .son-content .text .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.all .main-body .phone-area .content .down .son-content .text .content2 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.all .main-body .phone-area .content .down .son-content .text .prince {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.all .main-body .tablet-area {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    max-width: 1200px;
+}
+
+.all .main-body .tablet-area .text {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.all .main-body .tablet-area .content {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .tablet-area .content .up {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.all .main-body .tablet-area .content .up .son-content {
+    width: 270px;
+    height: 420px;
+    background-color: #fff;
+    margin-right: 14px;
+}
+
+.all .main-body .tablet-area .content .up .son-content img {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .tablet-area .content .up .son-content .text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.all .main-body .tablet-area .content .up .son-content .text .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.all .main-body .tablet-area .content .up .son-content .text .content2 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.all .main-body .tablet-area .content .up .son-content .text .prince {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.all .main-body .tablet-area .content .down {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.all .main-body .tablet-area .content .down .son-content {
+    width: 270px;
+    height: 420px;
+    background-color: #fff;
+    margin-right: 14px;
+}
+
+.all .main-body .tablet-area .content .down .son-content img {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .tablet-area .content .down .son-content .text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.all .main-body .tablet-area .content .down .son-content .text .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.all .main-body .tablet-area .content .down .son-content .text .content2 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.all .main-body .tablet-area .content .down .son-content .text .prince {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.all .main-body .popular-area {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    max-width: 1200px;
+}
+
+.all .main-body .popular-area .text {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.all .main-body .popular-area .content {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.all .main-body .popular-area .content .son-content {
+    width: 270px;
+    height: 420px;
+    background-color: #fff;
+    margin-right: 14px;
+}
+
+.all .main-body .popular-area .content .son-content img {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .popular-area .content .son-content .text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.all .main-body .popular-area .content .son-content .text .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.all .main-body .popular-area .content .son-content .text .content2 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.all .main-body .popular-area .content .son-content .text .prince {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.all .main-body .car {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    max-width: 1200px;
+}
+
+.all .main-body .car .text {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.all .main-body .car .content {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .car .content .up {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.all .main-body .car .content .up .son-content {
+    width: 270px;
+    height: 420px;
+    background-color: #fff;
+    margin-right: 14px;
+}
+
+.all .main-body .car .content .up .son-content img {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .car .content .up .son-content .text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.all .main-body .car .content .up .son-content .text .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.all .main-body .car .content .up .son-content .text .content2 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.all .main-body .car .content .up .son-content .text .prince {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.all .main-body .car .content .down {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.all .main-body .car .content .down .son-content {
+    width: 270px;
+    height: 420px;
+    background-color: #fff;
+    margin-right: 14px;
+}
+
+.all .main-body .car .content .down .son-content img {
+    width: 100%;
+    height: auto;
+}
+
+.all .main-body .car .content .down .son-content .text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.all .main-body .car .content .down .son-content .text .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.all .main-body .car .content .down .son-content .text .content2 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    word-break: break-all;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.all .main-body .car .content .down .son-content .text .prince {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.all .footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 120px;
+    flex-direction: column;
+}
+
+.all .footer .bg {
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.all .footer .bg .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.all .footer .bg .content .text {
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.all .footer .information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.all .footer .information .link a {
+    margin-left: 3px;
+    margin-right: 3px;
+    text-decoration: none;
+}
